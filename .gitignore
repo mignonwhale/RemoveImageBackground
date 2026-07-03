@@ -1,2 +1,24 @@
+# 가상환경
+venv/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# PyInstaller 빌드 산출물
+build/
 dist/
+*.spec
+
+# 환경변수 / 시크릿
 .env
+.streamlit/secrets.toml
+
+# 로그
+*.log
+
+# 에디터 / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
